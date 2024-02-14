@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg); /* Replace with the URL of your high-quality sky photo */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: "Times New Roman", Times, serif; /* Change font-family as needed */
+        }
+        .container {
+            text-align: center;
+        }
+        .message {
+            text-align: center;
+            color: white;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for better readability */
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgb(8, 168, 231);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: rgb(221, 11, 134);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">Happy Valentine's Day Pr Thl Ngl </div>
+        <button class="button" id="loveButton">Click Me :D</button>
+    </div>
+    <script>
+        document.getElementById("loveButton").onclick = function () {
+            window.location.href = "flower.html";
+        };
+    </script>
+</body>
+</html>
